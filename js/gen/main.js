@@ -21074,7 +21074,7 @@ $c_Lwhilelang_backend_SmallSemantics$.prototype.nextInt__Lwhilelang_syntax_Progr
       if ((x184 instanceof $c_Lwhilelang_syntax_Program$IExpr$N)) {
         var x$1$10 = $as_Lwhilelang_syntax_Program$IExpr$N(x184);
         var x187 = x$1$10.Lwhilelang_syntax_Program$IExpr$N__f_n;
-        var n$3 = ((x190 - x187) | 0);
+        var n$3 = $imul(x190, x187);
         var _2$2 = new $c_Lwhilelang_syntax_Program$IExpr$N(n$3);
         var value$3 = new $c_T2("Times", _2$2);
         return new $c_s_Some(value$3)
